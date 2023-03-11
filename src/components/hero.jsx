@@ -7,21 +7,21 @@ const Hero = (props) => {
       <div className="md:grid px-4 py-8 pb-16 md:grid-cols-12">
         <div className="md:col-span-7 flex px-10">
           <div className="text-center pt-8 text-white justify-center">
-            <img src={props.img} className="rounded-full border-4 object-none thanush" alt="Thanush" />
-            <span className="">Oh, this is not a NFT</span><br /><span className='text-xs hidden'>( NFTs are ded )</span>
+            <img src={props.img} className="rounded-full border-4 object-none img" alt="Thanush" />
+            <span className="lg:text-xl text-xs">Oh, this is not a NFT</span><br /><span className='text-xs hidden'>( NFTs are ded )</span>
           </div>
         </div>
-        <div className='md:col-span-5 text-white text-4xl my-auto text-center'>
-          <p>
-            MY CODE MAY NOT BE PERFECT
+        <div className='md:col-span-5 md:mt-8 lg:mt-24 leading-3 text-white lg:text-4xl my-auto arial text-center'>
+          <p className=''>
+            MY CODE WORKS
           </p> <br />
           <p>
-            BUT ATLEAST IT'S INDENTED
+            BUT DON'T ASK ME WHY
           </p> <br />
           <h1>WHO WANTS TO HIRE ME?</h1>
-          <div className=''>
-            <a href='' className='btn custom-button-1 text-xs rounded-lg'>MOI PROJECTS</a>
-            <a href='' className='btn custom-button-2 rounded-lg'>CONTACT MOI</a>
+          <div className='mt-8'>
+            <a href='' className='btn custom-button-1 lg:text-2xl p-2 mx-2 rounded'>MOI PROJECTS</a>
+            <a href='' className='btn custom-button-2 lg:text-2xl p-2 mx-2 rounded'>CONTACT MOI</a>
           </div>
           
         </div>

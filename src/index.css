@@ -6,6 +6,12 @@
 .body{
     background-color: #0A2647 ;
 }
+.underline-hover{
+    transition: all .5s ease;
+}
+.underline-hover:hover{
+    text-decoration: underline;    
+}
 .custom-button-1{
     background-color: #fcfcfc;
     color : #205295;
@@ -36,13 +42,28 @@
     font-family:'Shadows Into Light';
     padding-left: 10px;
 }
+.glass{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
 .arial{
     font-family: "Archivo Narrow";
 }
 
-.thanush{
+.img{
     width: 400px;
     height: auto;
     object-fit: cover;
+}
+.img-2{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+
 }
 
