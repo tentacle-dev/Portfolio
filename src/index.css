@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Shadows+Into+Light&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body{
+    background-color: #0A2647 ;
+}
+.custom-button-1{
+    background-color: #fcfcfc;
+    color : #205295;
+    transition: all .5s ease;
+}
+.custom-button-1:hover {
+    color: #fcfcfc;
+    background-color: transparent;
+    border: 1px solid #fcfcfc;
+}
+.custom-button-2{
+    background-color: #205295;
+    color: #fcfcfc;
+    transition: all .5s ease;
+}
+.custom-button-2:hover {
+    color: #fcfcfc;
+    background-color: transparent;
+    border: 1px solid #fcfcfc;
+}
+
+.nav{
+    background-color: #2C74B3;
+    height: 3em;
+}
+
+.write{
+    font-family:'Shadows Into Light';
+    padding-left: 10px;
+}
+.arial{
+    font-family: "Archivo Narrow";
+}
+
+.thanush{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
