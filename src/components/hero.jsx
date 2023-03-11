@@ -6,8 +6,8 @@ const Hero = (props) => {
     <section className="body xl:px-32 lg:h-1/6 ">
       <div className="md:grid px-4 py-8 pb-16 md:grid-cols-12">
         <div className="md:col-span-7 flex px-10">
-          <div className="text-center pt-8 text-white justify-center">
-            <img src={props.img} className="rounded-full border-4 object-none img" alt="Thanush" />
+          <div className="text-center  pt-8 text-white justify-center ">
+            <img src={props.img} className="rounded-full border-4 object-none img " alt="Thanush" />
             <span className="lg:text-xl text-xs">Oh, this is not a NFT</span><br /><span className='text-xs hidden'>( NFTs are ded )</span>
           </div>
         </div>
