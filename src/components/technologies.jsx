@@ -3,7 +3,7 @@ import React from 'react'
 
 const Tech = () => {
   return (
-    <div className='body'>
+    <div className='body' id='technologies'>
       <h1 className='text-center text-white text-3xl pb-2 uppercase'>TECHNOLOGIES</h1>
       <div className='md:grid md:cols-span-12 m-2'>
         <div className='md:col-span-3 text-white'>
