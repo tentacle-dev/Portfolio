@@ -13,12 +13,14 @@ import {HashLink as Link} from 'react-router-hash-link'
 
 function App() {
   return (
-      <div> 
+      <div className='body'> 
         <Navbar />
           <Hero img={Thanush}/>
           <About img={Software}/>
           <Tech />
           <Project />
+
+          <Contact />
       </div>
     
   )
