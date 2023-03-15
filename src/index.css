@@ -4,9 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.body{
-    background-color: #0A2647 ;
+.bg-1{
+    background-image: url('./assets/bg-2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/*
+-- Option 2 --
+@media screen and (min-width: 980px ) {
+    .bg-1 {
+        background-image: url('./assets/background-1.jpg') ;
+    }
+} */
 .underline-hover{
     transition: all .5s ease;
 }
@@ -28,6 +38,10 @@
     color: #fcfcfc;
     transition: all .5s ease;
 }
+.grid-gap{
+    background-color: blueviolet;
+}
+
 .custom-button-2:hover {
     color: #fcfcfc;
     background-color: transparent;
@@ -62,6 +76,39 @@
     font-family: "Archivo Narrow";
 }
 
+.project-body {
+    position: relative;
+    width: 100%;
+  }
+  
+  .proj-img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .project-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .project-body:hover .proj-img {
+    opacity: 0.3;
+  }
+  
+  .project-body:hover .project-text {
+    opacity: 1;
+  }
+  
 .img{
     width: 400px;
     height: auto;
