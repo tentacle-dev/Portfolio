@@ -17,7 +17,7 @@ const project = (props) => {
         <div className='project-body'>
           <img src={props.img} className="rounded-xl border-2 proj-img img m-auto " alt="Thanush" />
           <p className='text-xl mt-2 italic font-medium'>My P<span className='underline decoration-sky-500'>ortfoli</span>o Web <br /> Application</p>
-          <div class="project-text">
+          <div className="project-text">
             <label href='' htmlFor="my-modal-1" className='btn'>View Project</label>
           </div>
         </div>
@@ -32,7 +32,7 @@ const project = (props) => {
         </div>
           <img src={props.img} className="rounded-xl border-2 proj-img img m-auto " alt="Thanush" />
           <p className='text-xl mt-2 italic font-medium'>E<span className='underline decoration-sky-500'>-Commerc</span>e Web <br />Application</p>
-          <div class="project-text">
+          <div className="project-text">
             <label href=''  className='btn' htmlFor='my-modal-2'>View Project</label>
           </div>
         </div>
@@ -47,7 +47,7 @@ const project = (props) => {
         </div>
           <img src={props.img} className="rounded-xl border-2 proj-img img m-auto " alt="Thanush" />
           <p className='text-xl mt-2 italic font-medium'>F<span className='underline decoration-sky-500'>ull Stack</span> Web <br /> Application</p>
-          <div class="project-text">
+          <div className="project-text">
             <label href='' htmlFor="my-modal-3" className='btn'>View Project</label>
           </div>
         </div>

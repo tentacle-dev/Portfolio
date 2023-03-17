@@ -13,13 +13,13 @@ const Navbar = (props) => {
         <div className='basis-1/2'>
           <ul className='flex  flex-wrap flex-row'>
             <Link to='#about'>
-              <li className='basis-1/4'><a href="" className='basis-1/4'>About me</a></li>
+              {/* <li className='basis-1/4'><a href="" className='basis-1/4'>About me</a></li> */}
             </Link>
             <Link to='#technologies'>
-              <li className='basis-1/4'><a href="" className='basis-1/4'>Technologies</a></li>
+              {/* <li className='basis-1/4'><a href="" className='basis-1/4'>Technologies</a></li> */}
             </Link>
             <Link to='#projects'>
-              <li className='basis-1/4'><a href="" className='basis-1/4'>Projects</a></li>
+              {/* <li className='basis-1/4'><a href="" className='basis-1/4'>Projects</a></li> */}
             </Link>
           </ul>
         </div>

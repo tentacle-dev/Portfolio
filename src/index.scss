@@ -1,0 +1,25 @@
+  .social-card , .nft {
+    overflow: hidden;
+    transition: 1s all;
+    ::before{
+      position: fixed;
+      content: "";
+      box-shadow: 0 0 50px 40px #ffffff08;
+      top: -10%;
+      left: -100%;
+      transform: rotate(15deg);
+      height: 60rem;
+      transition: 2s all;
+    }
+    &:hover{
+      border: 1px solid #ffffff44;
+      box-shadow: 0 7px 50px 10px #000000aa;
+      transform: scale(1.015);
+      filter: brightness(1.3);
+      ::before{
+        filter: brightness(.5);
+        top: -100%;
+        left: 200%;
+      }
+    }
+  }
