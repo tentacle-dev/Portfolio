@@ -21,7 +21,7 @@ function App() {
           <Tech daisyimg={daisy} expressimg={express} />
           <Project img={Thanush} />
           <Contact img={Software} />
-          <Footer img={Thanush} />
+          <Footer />
       </div>
     
   )

@@ -8,9 +8,9 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function contact(props) {
   return (
-    <div className='mx-3'>
+    <section className='mx-3' id="contact">
       <h3 className='anton text-justify text-md md:text-xl'>I'm fluent in coding languages and human languages. Contact me to discuss your next project.</h3>
-      <div className='sm:grid sm:grid-cols-4 mx-8 sm:mx-8 mt-4 '>
+      <div className='sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-8 sm:mx-8 mt-4 '>
         <div className="social-card ml-4 mb-4 justify-items-center">
           <div className="grid grid-cols-4 mb-4 justify-items-stretch ">
             <div className='col-span-1 mx-4 mt-4'>
@@ -97,7 +97,7 @@ function contact(props) {
         </div>
       </div>
 
-    </div>
+    </section>
   )
 }
 

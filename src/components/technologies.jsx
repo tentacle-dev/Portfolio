@@ -16,7 +16,7 @@ import { faFigma } from '@fortawesome/free-brands-svg-icons'
 const Tech = (props) => {
   return (
     <div className='body text-center mt-2 ' id='technologies'>
-      <h1 className='text-center text-white text-3xl pb-2 uppercase under
+      <h1 className='text-center text-white text-3xl pb-2 uppercase underline
        decoration-sky-500'>TECHNOLOGIES</h1>
         <div className='md:flex leading-6 '>
         <div className="sm:flex md:flex-none md:basis-1/2 mx-4 ">
@@ -31,8 +31,9 @@ const Tech = (props) => {
                   <FontAwesomeIcon className='mt-1 justify-self-end animate-icons' icon={faCss3} /> 
                   <span className='text-left mx-2'>CSS</span>
                   </p>
-                <p className='grid grid-cols-2 justify-items-stretch animate-icons'><FontAwesomeIcon className='mt-1 justify-self-end' icon={faJs} />
-                <span className='text-left mx-2'>JS</span>
+                <p className='grid grid-cols-2 justify-items-stretch '>
+                  <FontAwesomeIcon className='mt-1 justify-self-end animate-icons' icon={faJs} />
+                  <span className='text-left mx-2'>JavaScript</span>
                 </p>
                 <p className='grid grid-cols-2 justify-items-stretch'>
                   <FontAwesomeIcon className='mt-1 justify-self-end animate-icons' icon={faReact} /> 
