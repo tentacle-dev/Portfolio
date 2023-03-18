@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title": "Portfolio Website",
+        "technologies": [
+            "html","css","react","json","tailwind UI","daisy UI","FontAwesome","React Router","HashLink"
+        ],
+        "completed":"true",
+        "images":"",
+        "link":"https:"
+    
+    },
+    {
+        "id": "2",
+        "title": "E-Commerce Website",
+        "technologies": [
+            "html","css","php","json","Bootstrap","Chart JS","FontAwesome","SQL","STRIPE API","Dialog Flow"
+        ],
+        "completed":"true",
+        "images":""
+    },
+    {
+        "id": "3",
+        "title": "Personal Finance Website",
+        "technologies": [
+            "html","css","react","nodeJS","express","Chart JS","FontAwesome","MongoDb"
+        ],
+        "completed":"false",
+        "images":""
+
+    }
+]

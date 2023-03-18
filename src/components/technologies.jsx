@@ -18,8 +18,8 @@ const Tech = (props) => {
     <div className='body text-center mt-2 ' id='technologies'>
       <h1 className='text-center text-white text-3xl pb-2 uppercase underline
        decoration-sky-500'>TECHNOLOGIES</h1>
-        <div className='md:flex leading-6 '>
-        <div className="sm:flex md:flex-none md:basis-1/2 mx-4 ">
+        <div className='lg:flex leading-6 '>
+        <div className="sm:flex lg:flex-none lg:basis-1/2 mx-4 ">
           <div className="sm:flex-auto mx-4 m-2">
               <h2 className='heading text-2xl fontWeight-700'>CLIENT SIDE</h2>
               <div className=''>

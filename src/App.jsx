@@ -10,6 +10,7 @@ import Thanush from './assets/Thanush.jpeg'
 import Software from './assets/software.jpg'
 import daisy from './assets/daisy.png'
 import express from './assets/express.png'
+import Carousel from './components/carousel'
 
 function App() {
   return (
