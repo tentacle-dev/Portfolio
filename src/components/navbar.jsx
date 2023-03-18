@@ -12,7 +12,7 @@ const Navbar = (props) => {
       <div className='navbar-start'>
         <p className='text-3xl write pt-2 text-slate-300'>THANUSH SEELAN</p>
       </div>
-      <div className="navbar-center gap-8 ml-36 text-md  uppercase">
+      <div className="navbar-center hidden sm:display gap-8 ml-36 text-md  uppercase">
         <BrowserRouter>
           <Link to='#about'>
             <a>About Me</a>

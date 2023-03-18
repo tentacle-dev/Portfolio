@@ -1,6 +1,5 @@
 import './index.css'
 import './index.scss'
-import Footer from './components/footer'
 import Navbar from './components/navbar'
 import Hero from './components/hero'
 import About from './components/about'
@@ -21,7 +20,6 @@ function App() {
           <Tech daisyimg={daisy} expressimg={express} />
           <Project img={Thanush} />
           <Contact img={Software} />
-          <Footer />
       </div>
     
   )
