@@ -10,8 +10,7 @@ import Thanush from './assets/Thanush.jpeg'
 import Software from './assets/software.jpg'
 import daisy from './assets/daisy.png'
 import express from './assets/express.png'
-import Carousel from './components/carousel'
-import Map from './components/Map'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -22,6 +21,7 @@ function App() {
           <Tech daisyimg={daisy} expressimg={express} />
           <Project img={Thanush} />
           <Contact img={Software} />
+          <Footer />
       </div>
     
   )
