@@ -6,7 +6,7 @@
             "html","css","react","json","tailwind UI","daisy UI","FontAwesome","React Router","HashLink"
         ],
         "completed":"true",
-        "images":"",
+        "images": ["./src/assets/portfolio1.png","./src/assets/portfolio1.png"],
         "link":"https:"
     
     },
@@ -17,7 +17,8 @@
             "html","css","php","json","Bootstrap","Chart JS","FontAwesome","SQL","STRIPE API","Dialog Flow"
         ],
         "completed":"true",
-        "images":""
+        "images": ["./src/assets/portfolio1.png","./src/assets/portfolio1.png"]
+
     },
     {
         "id": "3",
@@ -26,7 +27,8 @@
             "html","css","react","nodeJS","express","Chart JS","FontAwesome","MongoDb"
         ],
         "completed":"false",
-        "images":""
+        "images": ["./src/assets/portfolio1.png","./src/assets/portfolio1.png"]
+
 
     }
 ]

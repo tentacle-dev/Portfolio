@@ -119,7 +119,7 @@ const Tech = (props) => {
             </p>
             <p className='grid grid-cols-2 justify-items-stretch'>
               <FontAwesomeIcon icon={faEnvira} className='mt-1 justify-self-end animate-icons' />
-              <span className='text-left mx-2'>LIGHROOM</span>
+              <span className='text-left mx-2'>LIGHTROOM</span>
             </p>
           </div>
         </div>

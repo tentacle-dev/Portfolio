@@ -29,7 +29,7 @@ function contact(props) {
               icon={faLinkedin}  />
             </div>
             <div className='mx-4 mt-4 col-span-3'>
-              <span className='anton text-xl pb-24'><a href='https://www.linkedin.com/in/tanushsathiyaseelan-3165a218a/'>Tanush Sathiyseelan</a></span>
+              <span className='anton text-xl pb-24'><a href='https://www.linkedin.com/in/tanushsathiyaseelan-3165a218a/'>Tanush Sathiyaseelan</a></span>
             </div>
           </div>
         </div>
