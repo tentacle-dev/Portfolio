@@ -40,9 +40,9 @@ const About = (props) => {
   return (
     <div className='body pb-2' id="about">
       <h1 className='text-center text-white text-bold headerFont text-3xl pb-2 underline-hover uppercase underline decoration-sky-500 '>About Me</h1>
-      <div className='md:grid md:grid-cols-12 mx-8 gap-2'>
-        <div className=' col-span-7 text-white mx-8 my-8 text-justify p-8 rounded-xl'>
-          <div className='grid grid-cols-4 justify-between justify-items-center bg-slate-900'>
+      <div className='md:grid md:grid-cols-12 mx-2 lg:mx-8 gap-2'>
+        <div className=' col-span-7 text-white mx-8 lg:my-8 text-justify p-8 rounded-xl'>
+          <div className='grid grid-cols-4 justify-between justify-items-center bg-slate-900 text-sm md:text-medium'>
             <div onClick={() =>  setSelect(0)} className={select === 0 ? 'text-center border-2 rounded-t-lg border-b-4 border-sky-500 min-w-full' : 'text-center min-w-full'}>
               Small
             </div>
@@ -84,7 +84,7 @@ const About = (props) => {
               Swift learner</span>, while if I come across a new and intriguing technology, I become an <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>enthusiastic</span> and <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>committed learner</span>. I am adaptable to different situations and have the drive to continuously develop my skills in the tech industry.
             </div>
         </div>
-        <div className='col-span-5 mt-16 lg:ml-16  rounded-full'>
+        <div className='col-span-5 lg:mt-16 lg:ml-16  rounded-full'>
           <div className='mx-auto lg:w-3/4 w-1/3'>
             <Plx parallaxData={parallax}>
               <div className=''>

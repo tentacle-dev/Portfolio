@@ -70,9 +70,9 @@ function App() {
   return (
       <div className="bg-1 pb-4 overflow-x-hidden"> 
           <Navbar />
-          {/* <Plx parallaxData={ParallaxHero}> */}
+          <Plx parallaxData={ParallaxHero}>
             <Hero img={Thanush}/>
-          {/* </Plx> */}
+          </Plx>
           <Plx parallaxData={ParallaxAbout}>
             <About img={Software}/>
           </Plx>

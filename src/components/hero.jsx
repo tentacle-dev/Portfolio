@@ -26,8 +26,8 @@ const Hero = (props) => {
           </p> <br />
           <h1 className={scroll && 'typeeffect'}>TECH SAVVY</h1>
           <div className='mt-8'>
-            <a href='' className='btn custom-button-1 lg:text-2xl px-4 mx-2 rounded'>MOI PROJECTS</a>
-            <a href='' className='btn custom-button-2 lg:text-2xl px-4 mx-2 rounded'>CONTACT MOI</a>
+            <a href='#about' className='btn custom-button-1 lg:text-2xl px-4 mx-2 rounded'>MOI PROJECTS</a>
+            <a href='#contact' className='btn custom-button-2 lg:text-2xl px-4 mx-2 rounded'>CONTACT MOI</a>
           </div>
         </div>
       </div>
