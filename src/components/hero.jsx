@@ -9,7 +9,7 @@ const Hero = (props) => {
     });
   }, []);
   return (
-    <section className="body xl:px-32 lg:h-1/6 lg:mb-8 pb-2 animate-hero">
+    <section className=" relative body xl:px-32 lg:h-1/6 lg:mb-8 pb-2 animate-hero z-20">
       <div className="md:grid px-4 sm:py-8 pb-16 md:grid-cols-12">
         <div className="md:col-span-7 px-10">
             <div className="text-center pt-8 text-white justify-center mb-4 ">

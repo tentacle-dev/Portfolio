@@ -1,12 +1,34 @@
 import React from 'react'
 import Modal from './modal'
 import data from '../data.json'
+import Plx from 'react-plx';
+
+const headParallax = [
+  {
+    start: 850,
+    end: 1500,
+    properties: [
+      {
+        startValue: 50,
+        endValue: 0,
+        property: "translateY",
+      },
+      {
+        startValue : 100 ,
+        endValue : 0,
+        property : "rotateX"
+      }
+    ],
+  },
+];
 
 const project = (props) => {
   return (
-    <section id='project mb-8'>
+    <section id='project' className='mb-8'>
       <div className="text-center">
-        <h1 className=' headerFont'>My Projects</h1>
+        <Plx parallaxData={headParallax}>
+            <h1 className='headerFont font-2xl'>Projects</h1>
+        </Plx>
       </div>
       <div className='grid text-center grid-cols-1 m-4 items-center gap-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 items-center'> 
         {

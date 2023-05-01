@@ -9,19 +9,19 @@ function contact(props) {
     <section className='mx-3 my-8' id="contact">
       <h3 className='anton text-justify text-md md:text-xl mx-4'>I'm fluent in coding languages and human languages. Contact me to discuss your next project.</h3>
       <div className='sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-8 sm:mx-8 mt-4 '>
-        <div className="social-card ml-4 mb-4 justify-items-center">
-          <div className="grid grid-cols-4 mb-4 justify-items-stretch ">
+        <div className="social-card ml-4 mb-4 justify-items-center hover:text-gray-900 hover:bg-green-700">
+          <div className="grid grid-cols-4 mb-4 justify-items-stretch  ">
             <div className='col-span-1 mx-4 mt-4'>
               <FontAwesomeIcon 
               className='svg-inline--fa text-2xl' 
               icon={faPhone}  />
             </div>
-            <div className='mx-4 mt-4 col-span-3'>
+            <div className='mx-4 mt-4 col-span-3 '>
               <span className='anton text-xl pb-24'>+94 777 032505</span>
             </div>
           </div>
         </div>
-        <div className="social-card ml-4 mb-4 justify-items-center">
+        <div className="social-card ml-4 mb-4 justify-items-center hover:text-gray-900 hover:bg-blue-400">
           <div className="grid grid-cols-4 mb-4 justify-items-stretch ">
             <div className='col-span-1 mx-4 mt-4'>
               <FontAwesomeIcon 
@@ -33,7 +33,7 @@ function contact(props) {
             </div>
           </div>
         </div>
-        <div className="social-card ml-4 mb-4 justify-items-center">
+        <div className="social-card ml-4 mb-4 justify-items-center hover:text-gray-900 hover:bg-green-600 hover:scale-50">
           <div className="grid grid-cols-4 mb-4 justify-items-stretch ">
             <div className='col-span-1 mx-4 mt-4'>
               <FontAwesomeIcon 
@@ -41,11 +41,11 @@ function contact(props) {
               icon={faEnvelope}  />
             </div>
             <div className='mx-4 mt-4 col-span-3'>
-              <span className='anton text-xl text-right'>tanush0525@gmail.com</span>
+              <span className='anton md:text-xl text-right'>tanush0525@gmail.com</span>
             </div>
           </div>
         </div>
-        <div className="social-card ml-4 mb-4 justify-items-center">
+        <div className="social-card ml-4 mb-4 justify-items-center hover:text-white">
           <div className="grid grid-cols-4 mb-4 justify-items-stretch ">
             <div className='col-span-1 mx-4 mt-4'>
               <FontAwesomeIcon 
@@ -57,7 +57,7 @@ function contact(props) {
             </div>
           </div>
         </div>
-        <div className="social-card ml-4 mb-4 justify-items-center">
+        <div className="social-card ml-4 mb-4 justify-items-center hover:text-gray-900 hover:bg-blue-700">
           <div className="grid grid-cols-4 mb-4 justify-items-stretch ">
             <div className='col-span-1 mx-4 mt-4'>
               <FontAwesomeIcon 
@@ -69,7 +69,7 @@ function contact(props) {
             </div>
           </div>
         </div>
-        <div className="social-card ml-4 mb-4 justify-items-center">
+        <div className="social-card ml-4 mb-4 justify-items-center hover:text-gray-900 hover:bg-blue-900">
           <div className="grid grid-cols-4 mb-4 justify-items-stretch ">
             <div className='col-span-1 mx-4 mt-4'>
               <FontAwesomeIcon 
@@ -81,7 +81,7 @@ function contact(props) {
             </div>
           </div>
         </div>
-        <div className="social-card ml-4 mb-4 justify-items-center">
+        <div className="social-card ml-4 mb-4 justify-items-center hover:text-gray-900 hover:bg-pink-700">
           <div className="grid grid-cols-4 mb-4 justify-items-stretch ">
             <div className='col-span-1 mx-4 mt-4'>
               <FontAwesomeIcon 

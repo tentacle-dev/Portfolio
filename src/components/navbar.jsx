@@ -34,7 +34,7 @@ const Navbar = (props) => {
   }
 
   return (
-    <nav>
+    <nav className='relative z-10 '>
       <div className='navbar bg-sky-900'>
         <div className='navbar-start' onClick={play}>
           <Plx parallaxData={thanushText}>
