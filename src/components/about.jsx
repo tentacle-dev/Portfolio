@@ -40,8 +40,8 @@ const About = (props) => {
   return (
     <div className='body pb-2' id="about">
       <h1 className='text-center text-white text-bold headerFont text-3xl pb-2 underline-hover uppercase underline decoration-sky-500 '>About Me</h1>
-      <div className='md:grid md:grid-cols-12 mx-2 lg:mx-8 gap-2'>
-        <div className=' col-span-7 text-white mx-8 lg:my-8 text-justify p-8 rounded-xl'>
+      <div className='md:grid md:grid-cols-12 lg:mx-8 gap-2'>
+        <div className=' col-span-7 text-white lg:mx-8 lg:my-8 text-justify p-8 rounded-xl'>
           <div className='grid grid-cols-4 justify-between justify-items-center bg-slate-900 text-sm md:text-medium'>
             <div onClick={() =>  setSelect(0)} className={select === 0 ? 'text-center border-2 rounded-t-lg border-b-4 border-sky-500 min-w-full' : 'text-center min-w-full'}>
               Small
@@ -79,7 +79,7 @@ const About = (props) => {
             I'm primarily interested in web development and design, and I've used graphic design software like Figma as well as UI and UX design ideas.
             Overall, I think my enthusiasm for web design and development, together with my programming and design abilities, make me a significant addition to any software development team.
             </div>
-            <div className='leading-loose'>
+            <div className=''>
               If a project is <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'> due early</span>, I would describe myself as a <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>
               Swift learner</span>, while if I come across a new and intriguing technology, I become an <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>enthusiastic</span> and <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>committed learner</span>. I am adaptable to different situations and have the drive to continuously develop my skills in the tech industry.
             </div>
