@@ -12,21 +12,45 @@ import { faEnvira } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faJira } from '@fortawesome/free-brands-svg-icons'
 import { faFigma } from '@fortawesome/free-brands-svg-icons'
+import Plx from 'react-plx'
+
+
+const headParallax = [
+  {
+    start: 500,
+    end: 1000,
+    properties: [
+      {
+        startValue: 50,
+        endValue: 0,
+        property: "translateY",
+      },
+      {
+        startValue : 100 ,
+        endValue : 0,
+        property : "rotateX"
+      }
+    ],
+  },
+];
 
 const Tech = (props) => {
   return (
     <div className='body text-center mt-2 ' id='technologies'>
-      <h1 className='text-center text-white text-3xl pb-2 uppercase underline
-       decoration-sky-500 headerFont'>TECHNOLOGIES</h1>
+      <div className='text-center'>
+      <Plx parallaxData={headParallax}>
+          <h1 className='headerFont font-2xl'>TECHNOLOGIES</h1>
+      </Plx>
+      </div>
         <div className='lg:flex leading-6 '>
         <div className="sm:flex lg:flex-none lg:basis-1/2 mx-4 ">
           <div className="sm:flex-auto mx-4 m-2 hover:text-white">
               <h2 className='heading text-2xl fontWeight-700'>CLIENT SIDE</h2>
               <div className=''>
-                <p className='grid grid-cols-2 justify-items-stretch'>
-                  <FontAwesomeIcon className='mt-1 justify-self-end animate-icons' icon={faHtml5} />
-                  <span className='text-left mx-2'>HTML</span>
-                </p>
+                  <p className='grid grid-cols-2 justify-items-stretch'>
+                    <FontAwesomeIcon className='mt-1 justify-self-end' icon={faHtml5} />
+                    <span className='text-left mx-2'>HTML</span>
+                  </p>
                 <p className='grid grid-cols-2 justify-items-stretch'>
                   <FontAwesomeIcon className='mt-1 justify-self-end animate-icons' icon={faCss3} /> 
                   <span className='text-left mx-2'>CSS</span>

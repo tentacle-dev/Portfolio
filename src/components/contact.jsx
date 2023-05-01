@@ -7,7 +7,7 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 function contact(props) {
   return (
     <section className='mx-3 my-8' id="contact">
-      <h3 className='anton text-justify text-md md:text-xl'>I'm fluent in coding languages and human languages. Contact me to discuss your next project.</h3>
+      <h3 className='anton text-justify text-md md:text-xl mx-4'>I'm fluent in coding languages and human languages. Contact me to discuss your next project.</h3>
       <div className='sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-8 sm:mx-8 mt-4 '>
         <div className="social-card ml-4 mb-4 justify-items-center">
           <div className="grid grid-cols-4 mb-4 justify-items-stretch ">

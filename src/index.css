@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow:wght@500&family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Kalam&family=Kaushan+Script&family=Permanent+Marker&family=Raleway:ital,wght@1,900&family=Roboto:wght@100&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Fugaz+One&family=Kalam&family=Kaushan+Script&family=Raleway:ital,wght@1,900&family=Roboto:wght@100&family=Staatliches&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,11 +17,54 @@
 .kaushan{
     font-family: 'Kaushan Script';
 }
-
-.headerFont{
-    font-family: 'Permanent Marker' ,sans-serif;
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
 }
 
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.headerFont{
+    font-family: 'Bruno Ace' ,sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #8e81be 0%,
+      #44107a 29%,
+      #13a5ff 67%,
+      #020202 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
+    display: inline-block;
+    font-size: 1.5rem;
+}
 .animate-icons{
     position: relative;
     animation: mymove 1.5s infinite;

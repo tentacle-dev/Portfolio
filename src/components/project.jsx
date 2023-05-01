@@ -5,7 +5,9 @@ import data from '../data.json'
 const project = (props) => {
   return (
     <section id='project mb-8'>
-      <h1 className='text-center text-white text-3xl pb-2 uppercase underline decoration-sky-500 headerFont'>My Projects</h1>
+      <div className="text-center">
+        <h1 className=' headerFont'>My Projects</h1>
+      </div>
       <div className='grid text-center grid-cols-1 m-4 items-center gap-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 items-center'> 
         {
           data.map((item ,index) => {

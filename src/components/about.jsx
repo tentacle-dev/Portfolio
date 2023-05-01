@@ -14,6 +14,24 @@ const parallax = [
     ]
   }
 ]
+const headParallax = [
+  {
+    start: 0,
+    end: 500,
+    properties: [
+      {
+        startValue: 50,
+        endValue: 0,
+        property: "translateY",
+      },
+      {
+        startValue : 100 ,
+        endValue : 0,
+        property : "rotateX"
+      }
+    ],
+  },
+];
 
 const parallaxName = [
   {
@@ -36,12 +54,16 @@ const parallaxName = [
 
 const About = (props) => {
 
-  const [select , setSelect] = useState(0);
+  const [select , setSelect] = useState(1);
   return (
     <div className='body pb-2' id="about">
-      <h1 className='text-center text-white text-bold headerFont text-3xl pb-2 underline-hover uppercase underline decoration-sky-500 '>About Me</h1>
+      <div className='text-center'>
+        <Plx parallaxData={headParallax}>
+          <h1 className='headerFont'>About me</h1>
+        </Plx>
+      </div>
       <div className='md:grid md:grid-cols-12 lg:mx-8 gap-2'>
-        <div className=' col-span-7 text-white lg:mx-8 lg:my-8 text-justify p-8 rounded-xl'>
+        <div className=' col-span-7 lg:mx-8 lg:my-8 text-justify p-8 rounded-xl'>
           <div className='grid grid-cols-4 justify-between justify-items-center bg-slate-900 text-sm md:text-medium'>
             <div onClick={() =>  setSelect(0)} className={select === 0 ? 'text-center border-2 rounded-t-lg border-b-4 border-sky-500 min-w-full' : 'text-center min-w-full'}>
               Small
@@ -70,8 +92,8 @@ const About = (props) => {
             Yeah , thought I’d have lorem ipsum here
             for some time but I thought I'll provide a small glimpse of my life So I earned a degree in <span className='uppercase text-xl text-bold underline decoration-sky-500 kaushan text-primary underline-offset-4 hover:text-white'>software engineering</span>, and web design and development are my passions. I have a solid background in coding languages including HTML, CSS, and JavaScript as well as practical knowledge of front-end frameworks like <span className='text-xl p-1 text-bold underline decoration-sky-500 kaushan text-primary underline-offset-4 hover:text-white'>
               REACT</span> / <span className='text-xl p-1 text-bold underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>
-              NEXT</span>
-            I am familiar with database systems like <span className='text-xl p-1 text-bold underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>
+              NEXT </span>
+             I am familiar with database systems like <span className='text-xl p-1 text-bold underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>
               SQL</span> and <span className='text-xl p-1 text-bold underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>
               NoSQL</span>. My backend strength has me <span className='text-xl p-1 text-bold underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>
               PHP</span> and <span className='text-xl p-1 text-bold underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>
