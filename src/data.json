@@ -32,8 +32,8 @@
             "html","css","react","nodeJS","express","Chart JS","FontAwesome","MongoDb"
         ],
         "completed":"false",
-        "img" : ["./public/assets/projects/dashboard.png"],
-        "innerImages": ["./public/assets/projects/dashboard.png","./public/assets/projects/services.png"],
+        "img" : ["../public/assets/projects/dashboard.png"],
+        "innerImages": ["../public/assets/projects/dashboard.png","./public/assets/projects/services.png"],
         "link":"https://github.com/tentacle-dev/WealthWorx"
     }
 ]
