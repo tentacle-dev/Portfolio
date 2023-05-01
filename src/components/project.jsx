@@ -2,9 +2,6 @@ import React from 'react'
 import Modal from './modal'
 import data from '../data.json'
 
-
-
-
 const project = (props) => {
   return (
     <section id='project mb-8'>

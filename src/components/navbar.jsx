@@ -1,4 +1,4 @@
-import sound from '../assets/Sounds/type.mp3';
+import sound from '../../public/assets/Sounds/type.mp3';
 
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

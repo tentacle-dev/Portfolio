@@ -7,8 +7,8 @@
             "html","css","react","json","tailwind UI","daisy UI","FontAwesome","React Router","HashLink"
         ],
         "completed":"true",
-        "img" : ["./src/assets/projects/portfolio.png"],
-        "innerImages": ["./src/assets/projects/portfolio.png"],
+        "img" : ["./public/assets/projects/portfolio.png"],
+        "innerImages": ["./public/assets/projects/portfolio.png"],
         "link":"https://github.com/tentacle-dev/Portfolio"
     
     },
@@ -20,8 +20,8 @@
             "html","css","php","json","Bootstrap","Chart JS","FontAwesome","SQL","STRIPE API","Dialog Flow"
         ],
         "completed":"true",
-        "img" : ["./src/assets/projects/Ecommerce.png"],
-        "innerImages": ["./src/assets/projects/Ecommerce.png","./src/assets/projects/EcommerceList.png"],
+        "img" : ["./public/assets/projects/Ecommerce.png"],
+        "innerImages": ["./public//assets/projects/Ecommerce.png","./public/assets/projects/EcommerceList.png"],
         "link":"https://github.com/tentacle-dev/TechTonic"
     },
     {
@@ -32,8 +32,8 @@
             "html","css","react","nodeJS","express","Chart JS","FontAwesome","MongoDb"
         ],
         "completed":"false",
-        "img" : ["./src/assets/projects/dashboard.png"],
-        "innerImages": ["./src/assets/projects/dashboard.png","./src/assets/projects/services.png"],
+        "img" : ["./public/assets/projects/dashboard.png"],
+        "innerImages": ["./public/assets/projects/dashboard.png","./public/assets/projects/services.png"],
         "link":"https://github.com/tentacle-dev/WealthWorx"
     }
 ]
