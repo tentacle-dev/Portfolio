@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+/* Base */
+body {
+  padding: 0;
+  background-color: #000!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.typeeffect {
+  position: relative;
+  font-weight: bold!important;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  transition-delay: 10s;
+  animation: typewriter 2s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

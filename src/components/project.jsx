@@ -1,46 +1,33 @@
 import React from 'react'
 import Modal from './modal'
+import data from '../data.json'
+
+
 
 
 const project = (props) => {
-  return (    
-    <section id='projects'>
-       <input type="checkbox" id="my-modal-1" className="modal-toggle" />
-       <Modal num='1' name='my-modal-1' img={props.img} navigate="https://github.com/tentacle-dev/Portfolio"/>
-        <h1 className='text-center text-white text-3xl pb-2 uppercase underline decoration-sky-500'>My Projects</h1>
-        <div className='grid text-center grid-cols-1 m-4 items-center gap-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 items-center'> 
-        <div className='project-body'>
-          <img src={props.img} className="rounded-xl border-2 proj-img img m-auto " alt="Thanush" />
-          <p className='text-xl mt-2 italic font-medium'>My P<span className='underline decoration-sky-500'>ortfoli</span>o Web <br /> Application</p>
-          <div className="project-text">
-            <label href='' htmlFor="my-modal-1" className='btn'>View Project</label>
-          </div>
-        </div>
-        <div className='project-body'>
-        <input type="checkbox" id="my-modal-2" className="modal-toggle" />
-        <Modal num='2' name='my-modal-2' img={props.img} navigate="https://github.com/tentacle-dev/Portfolio"/>
-          <div>
-            <img src={props.img} className="rounded-xl border-2 proj-img img m-auto " alt="Thanush" />
-            <p className='text-xl mt-2 italic font-medium'>E<span className='underline decoration-sky-500'>-Commerc</span>e Web <br />Application</p>
-            <div className="project-text">
-              <label href=''  className='btn' htmlFor='my-modal-2'>View Project</label>
-            </div>
-          </div>
-        </div>
-        <div className='project-body'>
-        <input type="checkbox" id="my-modal-3" className="modal-toggle" />
-        <Modal num='3' name='my-modal-3' img={props.img} navigate="https://github.com/tentacle-dev/Portfolio"/>
-          <img src={props.img} className="rounded-xl border-2 proj-img img m-auto " alt="Thanush" />
-          <p className='text-xl mt-2 italic font-medium'>F<span className='underline decoration-sky-500'>ull Stack</span> Web <br /> Application</p>
-          <div className="project-text">
-            <label href='' htmlFor="my-modal-3" className='btn'>View Project</label>
-          </div>
-        </div>
-
-        
-        
-
-        </div>
+  return (
+    <section id='project mb-8'>
+      <h1 className='text-center text-white text-3xl pb-2 uppercase underline decoration-sky-500 headerFont'>My Projects</h1>
+      <div className='grid text-center grid-cols-1 m-4 items-center gap-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 items-center'> 
+        {
+          data.map((item ,index) => {
+            return (
+              <div key={index}>
+                  <input type="checkbox" id={item.name} className="modal-toggle" />
+                  <Modal num={item.id} name={item.name} img={props.img} title={item.title} navigate={item.link} images={item.innerImages} technologies={item.technologies}/> 
+                  <div className='project-body '>
+                    <p className='text-xl m-2 italic font-medium underline decoration-sky-500'>{item.title}</p>
+                    <img src={item.img} className="rounded-xl border-2 p-2 border-sky-500 proj-img img m-auto w-24 " alt={item.title} />
+                    <div className="project-text">
+                      <label href='' htmlFor={item.name} className='btn bg-sky-800 translate-y-4'>View Project</label>
+                    </div>
+                  </div>
+              </div>
+            )
+          })
+        }
+      </div>
     </section>
   )
 }

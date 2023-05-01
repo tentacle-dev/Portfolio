@@ -2,33 +2,38 @@
     {
         "id": "1",
         "title": "Portfolio Website",
+        "name":"my-modal-1",
         "technologies": [
             "html","css","react","json","tailwind UI","daisy UI","FontAwesome","React Router","HashLink"
         ],
         "completed":"true",
-        "images": ["./src/assets/portfolio1.png","./src/assets/portfolio1.png"],
-        "link":"https:"
+        "img" : ["../src/assets/projects/portfolio.png"],
+        "innerImages": ["../src/assets/projects/portfolio.png"],
+        "link":"https://github.com/tentacle-dev/Portfolio"
     
     },
     {
         "id": "2",
         "title": "E-Commerce Website",
+        "name":"my-modal-2",
         "technologies": [
             "html","css","php","json","Bootstrap","Chart JS","FontAwesome","SQL","STRIPE API","Dialog Flow"
         ],
         "completed":"true",
-        "images": ["./src/assets/portfolio1.png","./src/assets/portfolio1.png"]
-
+        "img" : ["../src/assets/projects/Ecommerce.png"],
+        "innerImages": ["../src/assets/projects/Ecommerce.png","../src/assets/projects/EcommerceList.png"],
+        "link":"https://github.com/tentacle-dev/TechTonic"
     },
     {
         "id": "3",
         "title": "Personal Finance Website",
+        "name":"my-modal-3",
         "technologies": [
             "html","css","react","nodeJS","express","Chart JS","FontAwesome","MongoDb"
         ],
         "completed":"false",
-        "images": ["./src/assets/portfolio1.png","./src/assets/portfolio1.png"]
-
-
+        "img" : ["../src/assets/projects/dashboard.png"],
+        "innerImages": ["../src/assets/projects/dashboard.png","../src/assets/projects/services.png"],
+        "link":"hhttps://github.com/tentacle-dev/WealthWorx"
     }
 ]

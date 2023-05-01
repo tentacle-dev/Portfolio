@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow:wght@500&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Kalam&family=Kaushan+Script&family=Permanent+Marker&family=Raleway:ital,wght@1,900&family=Roboto:wght@100&family=Staatliches&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,6 +9,17 @@
     background-image: url('./assets/bg-2.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.kalam{
+    font-family: 'Raleway';
+}
+
+.kaushan{
+    font-family: 'Kaushan Script';
+}
+
+.headerFont{
+    font-family: 'Permanent Marker' ,sans-serif;
 }
 
 .animate-icons{
@@ -49,6 +61,17 @@
 }
 .underline-hover:hover{
     text-decoration: underline;    
+}
+.animate-hero{
+    position: relative;
+    animation: myheromove 1s infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes myheromove {
+    0% {left: 0px;}
+    50% {left: 10px;}
+    100% {left: 0px;}
 }
 .custom-button-1{
     background-color: #fcfcfc;
@@ -140,6 +163,12 @@
     height: auto;
     object-fit: cover;
 }
+
+@media only screen and (max-width:769px) {
+    .img {
+        width : 300px
+     }
+  }
 .img-2{
     width: 100%;
     height: auto;

@@ -17,10 +17,10 @@ const Tech = (props) => {
   return (
     <div className='body text-center mt-2 ' id='technologies'>
       <h1 className='text-center text-white text-3xl pb-2 uppercase underline
-       decoration-sky-500'>TECHNOLOGIES</h1>
+       decoration-sky-500 headerFont'>TECHNOLOGIES</h1>
         <div className='lg:flex leading-6 '>
         <div className="sm:flex lg:flex-none lg:basis-1/2 mx-4 ">
-          <div className="sm:flex-auto mx-4 m-2">
+          <div className="sm:flex-auto mx-4 m-2 hover:text-white">
               <h2 className='heading text-2xl fontWeight-700'>CLIENT SIDE</h2>
               <div className=''>
                 <p className='grid grid-cols-2 justify-items-stretch'>
@@ -41,7 +41,7 @@ const Tech = (props) => {
                 </p>
               </div>
           </div>
-          <div className="sm:flex-auto mx-4  m-2">
+          <div className="sm:flex-auto mx-4  m-2 hover:text-white">
             <h2 className='heading text-2xl fontWeight-700'>UI </h2>
             <p className='grid grid-cols-2 justify-items-stretch'>
               <FontAwesomeIcon className='mt-1 justify-self-end animate-icons' icon={faBootstrap} />
@@ -66,7 +66,7 @@ const Tech = (props) => {
           </div>
         </div>
         <div className='sm:flex md:flex-none md:basis-1/2 mx-4 '>
-          <div className="sm:basis-1/2 mx-4 m-2">
+          <div className="sm:basis-1/2 mx-4 m-2 hover:text-white">
             <h2 className='heading text-2xl fontWeight-700'>SERVER SIDE</h2>
             <p className='grid grid-cols-2 justify-items-stretch'>
               <FontAwesomeIcon className='mt-1 justify-self-end animate-icons' icon={faPhp} /> 
@@ -85,7 +85,7 @@ const Tech = (props) => {
               <span className='text-left mx-2'> Express JS</span>
             </p> 
           </div>
-          <div className="sm:basis-1/2 md:flex-basis-1/4 mx-4 m-2">
+          <div className="sm:basis-1/2 md:flex-basis-1/4 mx-4 m-2 hover:text-white">
             <h2 className='heading text-2xl fontWeight-700'>DATABASE</h2>
             <p className='grid grid-cols-2 justify-items-stretch'>
               
@@ -100,7 +100,7 @@ const Tech = (props) => {
         </div>
         </div>
         <div className='flex mx-4 '>
-          <div className="flex-auto mx-4 m-2">
+          <div className="flex-auto mx-4 m-2 hover:text-white">
             <h2 className='heading text-2xl fontWeight-700'>Project Control</h2>
             <p className='grid grid-cols-2 justify-items-stretch'>
               <FontAwesomeIcon icon={faGithub} className='mt-1 justify-self-end animate-icons' />
@@ -111,7 +111,7 @@ const Tech = (props) => {
               <span className='text-left mx-2'>JIRA</span>
               </p>
           </div>
-          <div className="flex-auto mx-4 m-2">
+          <div className="flex-auto mx-4 m-2 hover:text-white">
             <h2 className='heading text-2xl fontWeight-700'>GRAPHICS</h2>
             <p className='grid grid-cols-2 justify-items-stretch'>
               <FontAwesomeIcon icon={faFigma} className='mt-1 justify-self-end animate-icons' />
