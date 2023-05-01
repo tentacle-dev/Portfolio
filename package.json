@@ -1,13 +1,13 @@
 {
-  "homepage": "http://tentacle-dev.github.io/Portfolio",
+  "homepage": "https://tentacle-dev.github.io",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d www",
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
