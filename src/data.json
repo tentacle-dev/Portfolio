@@ -7,8 +7,8 @@
             "html","css","react","json","tailwind UI","daisy UI","FontAwesome","React Router","HashLink"
         ],
         "completed":"true",
-        "img" : ["/public/assets/projects/portfolio.png"],
-        "innerImages": ["public/assets/projects/portfolio.png"],
+        "img" : ["assets/projects/portfolio.png"],
+        "innerImages": ["assets/projects/portfolio.png"],
         "link":"https://github.com/tentacle-dev/Portfolio"
     
     },
@@ -21,7 +21,7 @@
         ],
         "completed":"true",
         "img" : ["assets/projects/Ecommerce.png"],
-        "innerImages": ["./public//assets/projects/Ecommerce.png","./public/assets/projects/EcommerceList.png"],
+        "innerImages": ["assets/projects/Ecommerce.png","assets/projects/EcommerceList.png"],
         "link":"https://github.com/tentacle-dev/TechTonic"
     },
     {
@@ -32,8 +32,8 @@
             "html","css","react","nodeJS","express","Chart JS","FontAwesome","MongoDb"
         ],
         "completed":"false",
-        "img" : ["../public/assets/projects/dashboard.png"],
-        "innerImages": ["../public/assets/projects/dashboard.png","./public/assets/projects/services.png"],
+        "img" : ["assets/projects/dashboard.png"],
+        "innerImages": ["assets/projects/dashboard.png","assets/projects/services.png"],
         "link":"https://github.com/tentacle-dev/WealthWorx"
     }
 ]
