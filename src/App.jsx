@@ -73,9 +73,9 @@ function App() {
           <Plx parallaxData={ParallaxHero}>
             <Hero img={Thanush}/>
           </Plx>
-          <Plx parallaxData={ParallaxAbout}>
+          {/* <Plx parallaxData={ParallaxAbout}> */}
             <About img={Software}/>
-          </Plx>
+          {/* </Plx> */}
           <Tech daisyimg={daisy} expressimg={express} />
           <Project img={Thanush}/>
           <Contact img={Software} />
