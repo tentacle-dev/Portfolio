@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 .bg-1{
-    background-image: url('assets/bg-2.jpg') ;
+    background-image: url('../dist/assets/bg-2.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
 }

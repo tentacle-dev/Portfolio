@@ -17,7 +17,7 @@ const Hero = (props) => {
               <span className="lg:text-xl text-xs"><span className='text-5xl'>V</span>OILA <span className='text-3xl'>V</span>ISITORS</span><br /><span className='text-xs mb-4'>( Check some of my projects )</span>
             </div>
         </div>
-        <div className='md:col-span-5 md:mt-8 md:mt-24  lg:mt-24 leading-3 text-white md:text-4xl my-auto arial text-center '>
+        <div className='md:col-span-5 md:mt-8 md:mt-24  lg:mt-24  text-white md:text-4xl my-auto arial text-center '>
           <p className={scroll && 'typeeffect'}>
             SOFTWARE ENGINEER
           </p> <br />
