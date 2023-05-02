@@ -49,10 +49,16 @@ function App() {
       end: 40,
       properties: [
         {
-          startValue: -600,
+          startValue: 600,
           endValue: 0,
           property: "translateY",
         },
+        {
+          startValue : 0,
+          endValue : 1,
+          property : 'opacity',
+
+        }
       ],
     },
     {

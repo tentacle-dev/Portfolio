@@ -61,7 +61,7 @@ function modal(props) {
                 {props.title}
               </div>
             <div className=''>
-              <div className='h-80 carousel carousel-vertical rounded-lg max-w-md bg-neutral ml-2'>
+              <div className='h-56 lg:80 carousel carousel-vertical rounded-lg max-w-md bg-neutral ml-2'>
                 {
                   props.images.map((img , index) => {
                     return (
