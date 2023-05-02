@@ -14,6 +14,7 @@ const parallax = [
     ]
   }
 ]
+
 const headParallax = [
   {
     start: 0,
@@ -100,10 +101,10 @@ const About = (props) => {
               NodeJs</span>
             I'm primarily interested in web development and design, and I've used graphic design software like Figma as well as UI and UX design ideas.
             Overall, I think my enthusiasm for web design and development, together with my programming and design abilities, make me a significant addition to any software development team.
-            </div>
-            <div className=''>
-              If a project is <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'> due early</span>, I would describe myself as a <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>
-              Swift learner</span>, while if I come across a new and intriguing technology, I become an <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>enthusiastic</span> and <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>committed learner</span>. I am adaptable to different situations and have the drive to continuously develop my skills in the tech industry.
+              <div className=''>
+                If a project is <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'> due early</span>, I would describe myself as a <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>
+                Swift learner</span>, while if I come across a new and intriguing technology, I become an <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>enthusiastic</span> and <span className='text-xl p-1 text-bold uppercase underline decoration-sky-500 text-primary kaushan underline-offset-4 hover:text-white'>committed learner</span>. I am adaptable to different situations and have the drive to continuously develop my skills in the tech industry.
+              </div>
             </div>
         </div>
         <div className='col-span-5 lg:mt-16 lg:ml-16  rounded-full'>
