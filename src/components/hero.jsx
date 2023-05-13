@@ -3,32 +3,32 @@ import React, { useEffect, useState } from 'react'
 
 
 
-// const imageVariants = {
-//   initial : {
-//     x : -100
-//   },
-//   view : {
-//     x: 0 ,
-//     transition : {
-//       type : 'spring'
-//     }
-//   }
+const imageVariants = {
+  initial : {
+    x : -100
+  },
+  view : {
+    x: 0 ,
+    transition : {
+      type : 'spring'
+    }
+  }
   
-// }
-// const textVariants = {
-//   initial : {
-//     x : '+100vh'
-//   },
-//   animate : {
-//     x: 0,
-//     transition : {
-//       type : 'spring'
-//     }
-//   },
-//   view : {
-//     x: 0
-//   }
-// }
+}
+const textVariants = {
+  initial : {
+    x : '+100vh'
+  },
+  animate : {
+    x: 0,
+    transition : {
+      type : 'spring'
+    }
+  },
+  view : {
+    x: 0
+  }
+}
 
 const Hero = (props) => {
   const [scroll, setScroll] = useState(-10);
@@ -38,11 +38,11 @@ const Hero = (props) => {
     });
   }, []);
   return (
-    <section className=" relative  body xl:px-32 lg:h-1/6 lg:mb-8 pb-2 animate-hero z-20">
+    <section className=" relative  body mx-4 xl:px-32 lg:h-1/6 lg:mb-8 pb-2 z-20">
       <div className="md:grid px-4 sm:py-8 pb-16 md:grid-cols-12">
         <div className="md:col-span-7 px-10">
             <motion.div
-            // variants={imageVariants}
+            variants={imageVariants}
             initial='initial'
             animate='animate'
             whileInView='view'
@@ -52,7 +52,7 @@ const Hero = (props) => {
             </motion.div>
         </div>
         <motion.div
-        // variants={textVariants}
+        variants={textVariants}
         initial='initial'
         animate='animate'
         view='view'
