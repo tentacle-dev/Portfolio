@@ -38,5 +38,33 @@
         "link":"https://github.com/tentacle-dev/WealthWorx",
         "demo" : ""
 
+    },
+    {
+        "id": "4",
+        "title": "Three-Js Website",
+        "name":"my-modal-4",
+        "technologies": [
+            "html","css","threejs","gsap"
+        ],
+        "hosted":"true",
+        "img" : ["assets/projects/bugatti2.png"],
+        "innerImages": ["assets/projects/bugatti1.png","assets/projects/bugatti2.png","assets/projects/bugatti3.png"],
+        "link" : "https://tentacle-dev.github.io/Bugatti/",
+        "demo" : ""
+
+    },
+    {
+        "id": "5",
+        "title": "Restaurant Order System",
+        "name":"my-modal-5",
+        "technologies": [
+            "html","css","js","framer motion",""
+        ],
+        "hosted":"false",
+        "img" : ["assets/projects/ff3.png"],
+        "innerImages": ["assets/projects/ff1.png","assets/projects/ff2.png","assets/projects/ff3.png"],
+        "link" : "https://tentacle-dev.github.io/Bugatti/",
+        "demo" : ""
+
     }
 ]
