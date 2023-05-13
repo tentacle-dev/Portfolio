@@ -9,7 +9,9 @@ const imageVariants = {
   },
   view : {
     x: 0 ,
-    delay : 0.5
+    transition : {
+      type : 'spring'
+    }
   }
   
 }
