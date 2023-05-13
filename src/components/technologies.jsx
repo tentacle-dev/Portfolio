@@ -13,6 +13,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faJira } from '@fortawesome/free-brands-svg-icons'
 import { faFigma } from '@fortawesome/free-brands-svg-icons'
 import Plx from 'react-plx'
+import { motion } from 'framer-motion'
 
 
 const headParallax = [
@@ -34,15 +35,35 @@ const headParallax = [
   },
 ];
 
+const containerVariants = {
+  initial : {
+    opacity : 0 ,
+    y : -100
+  },
+  view : {
+    y : 0,
+    opacity : 1,
+    transition : {
+      type : 'spring'
+    }   
+
+  }
+}
+
 const Tech = (props) => {
   return (
-    <div className='body text-center mt-2 ' id='technologies'>
+    <motion.div
+    variants={containerVariants}
+    initial='initial'
+    animate='animate'
+    whileInView='view'
+    className='body mx-4 text-center lg:mx-32 ' id='technologies'>
       <div className='text-center'>
       <Plx parallaxData={headParallax}>
           <h1 className='headerFont font-2xl'>TECHNOLOGIES</h1>
       </Plx>
       </div>
-        <div className='lg:flex leading-6 '>
+        <div className='lg:flex leading-6 my-8'>
         <div className="sm:flex lg:flex-none lg:basis-1/2 mx-4 ">
           <div className="sm:flex-auto mx-4 m-2 hover:text-white">
               <h2 className='heading text-2xl fontWeight-700'>CLIENT SIDE</h2>
@@ -147,7 +168,7 @@ const Tech = (props) => {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
          
   )
 }

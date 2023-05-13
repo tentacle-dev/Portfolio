@@ -6,10 +6,10 @@
         "technologies": [
             "html","css","react","json","tailwind UI","daisy UI","FontAwesome","React Router","HashLink"
         ],
-        "completed":"true",
+        "hosted":"true",
         "img" : ["assets/projects/portfolio.png"],
         "innerImages": ["assets/projects/portfolio.png"],
-        "link":"https://github.com/tentacle-dev/Portfolio"
+        "link" : "https://tentacle-dev.github.io/Portfolio/"
     
     },
     {
@@ -19,10 +19,11 @@
         "technologies": [
             "html","css","php","json","Bootstrap","Chart JS","FontAwesome","SQL","STRIPE API","Dialog Flow"
         ],
-        "completed":"true",
+        "hosted":"false",
         "img" : ["assets/projects/Ecommerce.png"],
         "innerImages": ["assets/projects/Ecommerce.png","assets/projects/EcommerceList.png"],
-        "link":"https://github.com/tentacle-dev/TechTonic"
+        "link":"https://github.com/tentacle-dev/TechTonic",
+        "demo" : ""
     },
     {
         "id": "3",
@@ -31,9 +32,11 @@
         "technologies": [
             "html","css","react","nodeJS","express","Chart JS","FontAwesome","MongoDb"
         ],
-        "completed":"false",
+        "hosted":"false",
         "img" : ["assets/projects/dashboard.png"],
         "innerImages": ["assets/projects/dashboard.png","assets/projects/services.png"],
-        "link":"https://github.com/tentacle-dev/WealthWorx"
+        "link":"https://github.com/tentacle-dev/WealthWorx",
+        "demo" : ""
+
     }
 ]

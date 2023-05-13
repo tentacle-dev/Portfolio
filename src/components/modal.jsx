@@ -1,4 +1,20 @@
 import React from 'react'
+import { motion } from 'framer-motion';
+
+const modalVariants = {
+  initial : {
+    opacity : 0,
+    y:'-100vh'
+  },
+  animate : {
+    opacity : 1 ,
+    y : 0,
+    transition : {
+      type : 'spring',
+      duration : 5
+    }
+  }
+}
 
 
 function modal(props) {
@@ -54,7 +70,11 @@ function modal(props) {
     // }
 
   return (
-    <div className="modal">
+    <motion.div 
+    variants={modalVariants}
+    initial='initial'
+    animate='animate'
+    className="modal">
         <div className="modal-box relative min-h-fit">
             <label htmlFor={props.name} className="btn btn-sm btn-circle absolute right-2 top-2 bg-red-700 hover:bg-red-900">✕</label>
             <div className='text-center underline underline-sky-500 my-4 kalam decoration-dashed decoration-sky-500 text-2xl uppercase text-slate-100'>
@@ -95,14 +115,13 @@ function modal(props) {
                     </div>
               }
 
-              
-              <div className='text-white'> GIT - Repo <a href={props.navigate}>
+              <div className='text-white hover:cursor-pointer'> <a href={props.navigate}>
                 {props.navigate}
                 </a>
               </div>
             </div>
         </div>
-    </div>
+    </motion.div>
     
   )
 }
