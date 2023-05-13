@@ -38,7 +38,7 @@ const Hero = (props) => {
     });
   }, []);
   return (
-    <section className=" relative  body mx-4 xl:px-32 lg:h-1/6 lg:mb-8 mt-16 pb-2 z-20">
+    <section className=" relative  body mx-4 xl:px-32 lg:h-1/6 lg:mb-8 mt-16 pb-2">
       <div className="md:grid px-4 sm:py-8 pb-16 md:grid-cols-12">
         <div className="md:col-span-7 px-10">
             <motion.div
