@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 
 const imageVariants = {
   initial : {
-    x : '-100vh'
+    x : -100
   },
   view : {
     x: 0 ,
